@@ -6,7 +6,7 @@ node()
          def line = ''
     sh """
    
-   while read line; do
+   cat company.txt | while read line; do
     # reading each line
     echo $line
     echo "the vaalue is : \"$value\" "
