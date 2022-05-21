@@ -1,5 +1,6 @@
 def env = 'dev'
 def value = '12'
+def version = readTrusted 'config.groovy'
 
 node()
 {
