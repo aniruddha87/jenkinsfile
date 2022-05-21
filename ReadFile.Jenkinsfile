@@ -21,6 +21,6 @@ node()
     version = config.generatevalu
          ([
               value: "${value}",
-              env_value: "${env}"
+              env: "${env}"
          ])
 }
