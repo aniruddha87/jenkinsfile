@@ -1,5 +1,10 @@
 def generatevalu()
 {
-  def 'value': '14',
-  def 'env': 'vit'
+    return [
+      def 'value': '14',
+      def 'env': 'vit'
+     ]
 }
+return [
+  generatevalu: this&generatevalu
+]
