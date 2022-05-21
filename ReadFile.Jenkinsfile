@@ -1,4 +1,4 @@
-def configs = evaluate readTrusted('./config.groovy')
+def configs = evaluate readTrusted('config.groovy')
 def env = ''
 def value = ''
 
