@@ -12,7 +12,14 @@ node()
                   # reading each line
                   echo $line
          done
+         
          echo "the vaalue is : "${value}" "
          echo "the vaalue is : ${env} "
     '''
+    
+   /* version = config.generatevalu
+         ([
+              value: "${value}
+              env: "${env}
+         ]) */
 }
