@@ -1,4 +1,4 @@
-def generatevalu()
+def generatevalue()
 {
     return [
        'value' : '14',
@@ -6,5 +6,5 @@ def generatevalu()
      ]
 }
 return [
-  generatevalu: this&generatevalu
+  generatevalue: this&generatevalue
 ]
