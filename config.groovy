@@ -1,4 +1,4 @@
-def generatevalue (){
+generatevalue(){
     return [
        'value' : '14',
        'env' : 'vit'
