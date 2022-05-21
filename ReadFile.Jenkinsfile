@@ -1,7 +1,7 @@
 def env = ''
 def value = ''
 def versions = ''
-def configs = evaluate readTrusted('config.groovy')
+def configs = evaluate readTrusted('./config.groovy')
 
 node()
 {
