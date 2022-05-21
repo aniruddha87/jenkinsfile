@@ -1,6 +1,7 @@
 def env = 'dev'
 def value = '12'
-def version = readTrusted 'config.groovy'
+def versions = ''
+def configs = evaluate readTrusted('config.groovy')
 
 node()
 {
@@ -18,7 +19,7 @@ node()
          echo "the vaalue is : ${env} "
     '''
     
-    version = config.generatevalu
+    version = configs.generatevalu
          ([
               value: "${value}",
               env: "${env}"
