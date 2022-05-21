@@ -20,7 +20,7 @@ node()
     
     version = config.generatevalu
          ([
-              value: "${value}
-              env: "${env}
+              value: "${value}"
+              env: "${env}"
          ])
 }
