@@ -1,8 +1,8 @@
 def generatevalu()
 {
     return [
-      def 'value': '14',
-      def 'env': 'vit'
+       'value' : '14',
+       'env' : 'vit'
      ]
 }
 return [
