@@ -1,5 +1,5 @@
-def env = 'dev'
-def value = '12'
+def env = ''
+def value = ''
 def versions = ''
 def configs = evaluate readTrusted('config.groovy')
 
