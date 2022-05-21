@@ -19,7 +19,7 @@ node()
          echo "the vaalue is : ${env} "
     '''
     
-    version = configs.generatevalu
+    version = configs.generatevalue
          ([
               value: "${value}",
               env: "${env}"
